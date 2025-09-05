@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
-#define MAX 100
 
 class Stack {
-    int arr[MAX];
+    int arr[100];
     int top;
 public:
     Stack() { top = -1; }
@@ -55,3 +54,4 @@ int main() {
     } while (choice != 7);
     return 0;
 }
+
